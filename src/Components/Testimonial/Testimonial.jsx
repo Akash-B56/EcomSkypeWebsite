@@ -21,7 +21,7 @@ const TestimonialData = [
     img: "https://picsum.photos/104/104",
   },
   {
-    id: 5,
+    id: 4,
     name: "Sai Gobinda",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
     img: "https://picsum.photos/103/103",
@@ -91,9 +91,9 @@ const Testimonial = () => {
         <div data-aos="zoom-in">
           <Slider {...settings}>
             {TestimonialData.map((data) => (
-              <div className="my-6 sm:px-4">
+              <div key={data.id} className="my-6 sm:px-4">
                 <div
-                  key={data.id}
+                  
                   className="flex flex-col gap-4 shadow-lg py-8 px-6 mx-4 rounded-xl bg-gray-800 bg-primary/10 relative"
                 >
                   <div className="mb-4">

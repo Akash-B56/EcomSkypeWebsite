@@ -47,11 +47,11 @@ const App = () => {
     <div>
       <Navbar handleOrderPopup={handleOrderPopup} handleSignIn={handleSignIn}></Navbar>
       <Hero handleOrderPopup={handleOrderPopup}></Hero>
-      <Products handleSignIn={handleSignIn}></Products>
+      <Products></Products>
       <TopProducts handleOrderPopup={handleOrderPopup}></TopProducts>
       <Banner></Banner>
       <Subscribe></Subscribe>
-      <MensWear handleSignIn={handleSignIn}></MensWear>
+      <MensWear></MensWear>
       <MensShoes ></MensShoes>
       <Testimonial></Testimonial>
       <Footer></Footer>

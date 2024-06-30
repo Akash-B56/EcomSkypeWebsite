@@ -29,17 +29,17 @@ const MenuNav = [
     link: "/#",
   },
   {
-    id: 4,
+    id: 5,
     name: "Home & Leaving",
     link: "/#",
   },
   {
-    id: 4,
+    id: 6,
     name: "Beauty",
     link: "/#",
   },
   {
-    id: 4,
+    id: 7,
     name: "Trendings Products",
     link: "/#",
   },

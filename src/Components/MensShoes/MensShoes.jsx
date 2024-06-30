@@ -80,7 +80,7 @@ const MensShoes = ({ handleOrderPopup }) => {
       {/* body section  */}
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 place-items-center gap-20 md:gap-15 py-10 px-4 ">
         {ProductsData.map((data) => (
-          <div data-aos="zoom-in" className=" rounded-2xl bg-gray-800 hover:bg-[#5959f0] text-white shadow-xl group max-w-[300px] duration-300">
+          <div key={data.id} data-aos="zoom-in" className=" rounded-2xl bg-gray-800 hover:bg-[#5959f0] text-white shadow-xl group max-w-[300px] duration-300">
             <div  className='h-[100px]'>
               <img 
                 src={data.img} 
