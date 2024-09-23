@@ -52,7 +52,7 @@ const App = () => {
       <Banner></Banner>
       <Subscribe></Subscribe>
       <MensWear></MensWear>
-      <MensShoes ></MensShoes>
+      <MensShoes handleOrderPopup={handleOrderPopup}></MensShoes>
       <Testimonial></Testimonial>
       <Footer></Footer>
       <OrderPopup orderPopup={orderPopup} setOrderPopup={setOrderPopup} />
